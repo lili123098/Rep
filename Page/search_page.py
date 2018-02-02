@@ -13,6 +13,8 @@ class Search_Page(Base):
         self.input_text(Page.search_text, text)
     def search_return(self):
         # 点击返回
-        self.click_element(Page.search_return1)
+        self.click_element(Page.search_return)
+
+
 
 
